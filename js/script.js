@@ -27,5 +27,5 @@ fetch (DATA_URL) //linkea la constante de ULR
     showData(data.students); //Muestra los estudiantes con la función de arriba
   })
   .catch(error => {
-    console.error('Error fetching the data: '); //Si falla muetra el error
+    console.error('Error fetching the data: '); //Si falla muestra el error
   });
